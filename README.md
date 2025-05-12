@@ -13,6 +13,7 @@ This repository contains a curated set of **medium-level frontend projects** tha
 - 🎬 Netflix Clone (HTML & CSS only)
 - 📷 Image Gallery Grid
 - 📰 simple blog site
+- 🪡 Tailor apointment site
 
 (Keep adding as you build more 👷‍♂️)
 
