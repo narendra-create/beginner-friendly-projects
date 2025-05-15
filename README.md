@@ -2,11 +2,18 @@
 
 This repository contains a curated set of **medium-level frontend projects** that I’ve built using **HTML, CSS**, and (sometimes) **JavaScript**. These are small but meaningful projects that helped me understand layout, styling, and interactivity better.
 
+##📂file structure
+
+- D:\code\Portfolio\Projects
+
+
+
 ## 📦 Projects Included
 
 - 🎬 Netflix Clone (HTML & CSS only)
 - 📷 Image Gallery Grid
 - 📰 simple blog site
+- 🪡 Tailor apointment site
 
 (Keep adding as you build more 👷‍♂️)
 
