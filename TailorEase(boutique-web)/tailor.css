@@ -1,6 +1,7 @@
 body {
     margin: 2%;
     padding: 0;
+    /* Adds space around the entire page */
 }
 
 .header {
@@ -14,28 +15,31 @@ body {
     margin: 10px;
     padding: 0;
     border-radius: 12px;
+    /* Sticky top header bar with rounded corners */
 }
 
 .btn {
     border: none;
     padding-right: 15px;
+    /* Right padding button, no border */
 }
 
 .im {
     margin: 10px;
+    /* Margin around image or icon maybe */
 }
 
 .apointment {
     height: 45.2vh;
     width: 100%;
-    /* background-color: black; */
-
+    /* Reserved section for appointment, black bg commented out */
 }
 
 .onep,
 .twop {
     margin: 0;
     padding: 0;
+    /* Remove default spacing from paragraphs */
 }
 
 .onep {
@@ -44,11 +48,13 @@ body {
     text-align: center;
     padding-top: 9%;
     padding-bottom: 2%;
+    /* Big, bold heading at center */
 }
 
 .twop {
     text-align: center;
     font-size: 230%;
+    /* Second line of text below heading */
 }
 
 .scbtn {
@@ -58,6 +64,7 @@ body {
     align-items: center;
     padding-top: 3.2%;
     padding-bottom: 3.2%;
+    /* Container for the special button section */
 }
 
 .sc {
@@ -71,16 +78,16 @@ body {
     padding-left: 3.5%;
     padding-right: 3.5%;
     transition: background-color 0.3s ease, color 0.3s ease;
+    /* Stylish call-to-action button */
 }
 
 .sc:hover {
     color: rgb(46, 45, 45);
     background-color: rgb(41, 90, 146);
-    ;
     font-weight: bold;
     font-size: 125%;
+    /* Darker and bold look on hover */
 }
-
 
 .admin {
     margin-top: 14rem;
@@ -91,6 +98,7 @@ body {
     height: 80vh;
     width: 100%;
     padding: 0;
+    /* Admin section starts far below */
 }
 
 .adm {
@@ -99,6 +107,7 @@ body {
     padding-left: 9.8rem;
     font-weight: 500;
     font-size: 2rem;
+    /* Admin heading on left side */
 }
 
 .btns {
@@ -106,6 +115,7 @@ body {
     flex-direction: column;
     padding-top: 0rem;
     width: 86%;
+    /* Container for buttons under admin section */
 }
 
 .Mng {
@@ -117,6 +127,7 @@ body {
     padding-bottom: 13px;
     background-color: rgb(248, 247, 247);
     box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 12px 0 rgba(0, 0, 0, 0.19);
+    /* Manage button styling */
 }
 
 .cust {
@@ -128,68 +139,65 @@ body {
     margin-top: 0.9rem;
     background-color: rgb(248, 247, 247);
     box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 12px 0 rgba(0, 0, 0, 0.19);
+    /* Customer button styling */
 }
 
 .cust:hover {
     background-color: rgba(0, 0, 0, 0.116);
     border: 1px solid rgba(0, 0, 0, 0.199);
+    /* Slight dark background and border on hover */
 }
 
 .Mng:hover {
     background-color: rgba(0, 0, 0, 0.116);
     border: 1px solid rgba(0, 0, 0, 0.199);
+    /* Same hover effect as customer button */
 }
-
-
-
-
-
-
 
 .images {
     display: grid;
     grid-template-columns: 35vw 15vw 35vw;
     gap: 1.9%;
     padding-top: 0.3rem;
+    /* Grid layout for images */
 }
-
-
 
 .du,
 .coat {
-     transition: transform 0.3s ease;
-    /* smoothness */
+    transition: transform 0.3s ease;
     height: 70vh;
     width: 35vw;
     border-radius: 6px;
+    /* Main tall images */
 }
 
 .mini,
 .mini2 {
-     transition: transform 0.3s ease;
-    /* smoothness */
+    transition: transform 0.3s ease;
     width: 15vw;
     height: 31.5vh;
     border-radius: 5px;
+    /* Small side images */
 }
 
-.mini2:hover ,.mini:hover,.coat:hover,.du:hover{
+.mini2:hover, .mini:hover, .coat:hover, .du:hover {
     transform: scale(1.05);
-    /* makes it a little bigger */
-
+    /* Zoom on hover for all images */
 }
+
 .coat {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 3;
-
+    /* Specific grid position for coat image */
 }
 
 .mini {
     padding-bottom: 0rem;
     border-radius: 19px;
     padding-top: 0.8rem;
+    /* Extra round small image with padding */
 }
 
 .mini2 {
@@ -199,26 +207,28 @@ body {
     grid-row-end: 2;
     grid-column-start: 2;
     grid-column-end: 3;
+    /* Bottom image in the center column */
 }
 
 .du {
     grid-row-start: 1;
     grid-row-end: 3;
+    /* Positioning for du image */
 }
 
 .featured {
-    /* margin-left: 28%; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     margin: auto;
-
+    /* Centered column layout for featured section */
 }
 
 .feat {
     width: 100vw;
     padding-top: 6rem;
+    /* Section width and spacing */
 }
 
 .text {
@@ -226,123 +236,5 @@ body {
     font-size: 300%;
     color: #24240f;
     padding-left: 6.5%;
-}
-@media screen and (max-width: 1024px) {
-  .onep {
-    font-size: 220%;
-    padding-top: 12%;
-  }
-
-  .twop {
-    font-size: 130%;
-  }
-
-  .sc {
-    font-size: 110%;
-    padding: 2% 6%;
-  }
-
-  .images {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto auto;
-  }
-
-  .du,
-  .coat {
-    width: 100%;
-    height: auto;
-  }
-
-  .mini,
-  .mini2 {
-    width: 100%;
-    height: auto;
-  }
-
-  .coat {
-    grid-column: 1 / -1;
-    grid-row: auto;
-  }
-
-  .du {
-    grid-column: 1 / -1;
-    grid-row: auto;
-  }
-
-  .mini,
-  .mini2 {
-    grid-column: 1 / -1;
-    grid-row: auto;
-  }
-
-  .adm {
-    padding-left: 2rem;
-    font-size: 1.5rem;
-  }
-
-  .Mng,
-  .cust {
-    font-size: 1.5rem;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .header {
-    flex-direction: column;
-    height: auto;
-    padding: 10px;
-  }
-
-  .onep {
-    font-size: 180%;
-  }
-
-  .twop {
-    font-size: 110%;
-  }
-
-  .scbtn {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .sc {
-    font-size: 100%;
-    padding: 3% 8%;
-  }
-
-  .images {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .du,
-  .coat,
-  .mini,
-  .mini2 {
-    width: 100%;
-    height: auto;
-  }
-
-  .btns {
-    width: 100%;
-    padding: 0 10px;
-  }
-
-  .Mng,
-  .cust {
-    font-size: 1.2rem;
-    padding: 10px;
-  }
-
-  .adm {
-    padding-left: 1rem;
-    font-size: 1.2rem;
-  }
-
-  .text {
-    font-size: 180%;
-    padding-left: 5%;
-  }
+    /* Styling for featured text */
 }
