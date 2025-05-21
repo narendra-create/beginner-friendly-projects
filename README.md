@@ -14,6 +14,7 @@ This repository contains a curated set of **medium-level frontend projects** tha
 - 📷 Image Gallery Grid
 - 📰 simple blog site
 - 🪡 Tailor apointment site
+- 🎯Skill Swap (Skill learning app by teaching something)
 
 (Keep adding as you build more 👷‍♂️)
 
