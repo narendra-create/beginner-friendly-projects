@@ -1,0 +1,172 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+ body {
+     margin: 0;
+     padding: 0;
+     background-image: url(assets/Photos/Gradients/085\ October\ Silence.png);
+ }
+
+ nav {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+     width: 115rem;
+     margin: auto;
+     margin-top: 0.2rem;
+ }
+
+ .brand {
+     letter-spacing: 0.1rem;
+     text-decoration: wavy;
+     font-weight: 600;
+     color: rgb(119, 8, 163);
+     display: flex;
+     flex-direction: row;
+     gap: 1.5rem;
+     font-size: 180%;
+ }
+
+ .options,
+ .options2,
+ .options3 {
+     border: none;
+     background: none;
+     color: rgb(255, 255, 255);
+     font-size: 1.1rem;
+     text-shadow: 2px 2px 5px rgb(0, 0, 0);
+     /* initial grey shadow */
+     transition: all 0.3s ease-in-out;
+     /* smooth effect */
+ }
+
+ .op {
+     display: flex;
+     flex-direction: row;
+     column-gap: 4.5rem;
+ }
+
+ .options:hover,
+ .options2:hover,
+ .options3:hover {
+     color: black;
+     text-shadow: 4px 4px 12px rgb(0, 0, 0);
+     transform: scale(1.05);
+     /* slight zoom effect */
+     cursor: pointer;
+ }
+
+ .wrapper {
+     height: 100%;
+     width: 50%;
+     position: relative;
+ }
+
+ .main {
+     gap: 35px;
+     display: flex;
+     width: 97%;
+     height: 25re;
+     margin-top: 3rem;
+ }
+
+ .bg {
+     align-items: center;
+     justify-content: center;
+     display: grid;
+     grid-template-columns: repeat(2, 33rem);
+     grid-template-rows: repeat(2, 22rem);
+     /* background-color: black; */
+     width: 100%;
+     height: 100%;
+     z-index: 0;
+     /* gap: 40px; */
+ }
+
+ .first,
+ .second,
+ .third,
+ .forth {
+
+     width: 180px;
+ }
+
+ .first {
+     margin-bottom: 1rem;
+     margin-left: 3.5rem;
+     width: 20rem;
+     grid-row-start: 2;
+     grid-column-start: 1;
+     rotate: -2deg;
+ }
+
+ .second {
+     margin-bottom: 2rem;
+     rotate: -10deg;
+     width: 23rem;
+ }
+
+ .third {
+     justify-self: center;
+     width: 20rem;
+     rotate: 5deg;
+ }
+
+ .forth {
+     margin-top: 6rem;
+     rotate: 3deg;
+     width: 22rem;
+ }
+
+
+ .cen {
+     position: absolute;
+     width: 22rem;
+     z-index: 10;
+     top: 22%;
+     filter: blur(0.4px);
+     mask-image: linear-gradient(to top, transparent 1%, black 25%);
+     left: 28%;
+     rotate: 10deg;
+     clip-path: inset(0 0 4.2px 0);
+ }
+
+ .ex {
+     display: flex;
+     flex-direction: column;
+     width: 50%;
+     /* background-color: blue; */
+     align-items: center;
+     justify-content: center
+ }
+
+ .txt {
+     color: rgba(255, 255, 255, 1);
+     font-weight: 600;
+     letter-spacing: 0.09rem;
+     font-size: 4.5rem;
+     font-family: "Poppins", sans-serif;
+     padding: 0;
+     margin-right: 11rem;
+ }
+
+ .inbtn {
+     margin-right: 32.5rem;
+     border: none;
+     background-color: rgba(0, 51, 102, 0.87);
+     padding: 16px 36px 16px 36px;
+     color: white;
+     font-size: 1.3rem;
+     font-weight: 400;
+     font-family: "Poppins", sans-serif;
+     border-radius: 17px;
+     text-decoration: none;
+     transition: all 0.3s ease-in-out;
+     box-shadow: 2px 2px 5px rgb(0, 0, 0);
+ }
+
+ .inbtn:hover{
+    color: rgb(255, 255, 255);
+    scale: 1.08;
+ }
