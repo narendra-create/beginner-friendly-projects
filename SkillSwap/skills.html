@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <link rel="stylesheet" href="skills.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="brand">
+            <img src="assets/Photos/Logo/logoipsum-295.svg" alt="">
+            <p class="name">SkillSwap</p>
+        </div>
+        <div class="search">
+            <button class="searchbtn">🔎</button>
+            <input type="search" name="search" id="searchi" placeholder="Search">
+        </div>
+        <div class="ops">
+            <button class="options">More Options</button>
+        </div>
+    </nav>
+    <main class="main">
+        <section class="filters">
+            <p class="txtf"><b>Filters</b></p>
+            <div class="sk">
+                <select name="sk" id="sk">
+                    <option value="first"><b>Skills</b>
+                    </option>
+                    <option value="guitar">Guitar</option>
+                    <option value="dev">Devolopment</option>
+                    <option value="UI">Graphic design</option>
+                </select>
+            </div>
+            <div class="time">
+                <p class="txtf"><b>Time</b></p>
+                <select name="time" id="sk">
+                    <option value="tiemrq">Months required</option>
+                    <option value="2">2 MONTHS</option>
+                    <option value="4">4 MONTHS</option>
+                    <option value="6">6 MONTHS</option>
+                    <option value="10">10 MONTHS</option>
+                    <option value="YEAR">A YEAR</option>
+                </select>
+                <select name="time" id="sk">
+                    <option value="tiemrq">Time Required</option>
+                    <option value="10 hours">10 hours</option>
+                    <option value="30 hours">30 hours</option>
+                    <option value="40 hours">40 hours</option>
+                    <option value="50 hours">50 hours</option>
+                    <option value="70 hours">70 hours</option>
+                </select>
+            </div>
+            <div class="offer">
+                <p class="txtf"><b>Skill To Teach</b></p>
+                <select name="offer" id="sk">
+                    <option value="type">What skill you can teach</option>
+                    <option value="Guitar">🎸Guitar</option>
+                    <option value="MMA">🥋Martial arts</option>
+                    <option value="Soft">⚙️Softwere building</option>
+                    <option value="Digi">🧑‍💻Digital marketing</option>
+                    <option value="content">✍️Content writting</option>
+                    <option value="Video editing">📹Video Editing</option>
+                </select>
+            </div>
+            <div class="level">
+                <p class="txtf"><b>Level of knowledge</b></p>
+                <select name="level" id="sk">
+                    <option value="Select">Select level</option>
+                    <option value="beginner">🥉Beginner</option>
+                    <option value="intermediate">🥈Intermediate</option>
+                    <option value="master">🥇Master</option>
+                </select>
+            </div>
+            <div class="btns"><a href="SkillSwap.html" class="go">Go Back To Home Page</a>
+                <a href="#" class="go" id="apply">Apply Filter</a>
+            </div>
+        </section>
+        <section class="results">
+            <div class="sort">
+                <p class="txtr">Sort By:</p>
+                <div class="sorting"><select class="lvl" name="time" id="bytime">
+                        <option value="Time">⌛Time</option>
+                        <option value="Low-to-high">📈Low To High</option>
+                        <option value="HighToLow">📉High To Low</option>
+                    </select>
+                    <select name="months" id="mnt" class="lvl">
+                        <option value="Mon">🌥️Months</option>
+                        <option value="Low">🎚️Less To More</option>
+                        <option value="High">🪫More To Less</option>
+                    </select>
+                    <select name="levels" id="no" class="lvl">
+                        <option value="slct">🪜Level</option>
+                        <option value="B">👶Zero To Beginner</option>
+                        <option value="I">👦Beginner To Intermediate</option>
+                        <option value="master">👨‍🦱Intermediate To Master</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
