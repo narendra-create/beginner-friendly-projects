@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    word-break: break-all;
+    overflow-x: hidden;
+    
+}
+
+.checked-box{
+    background-image: url(/public/checked-icon.jpg);
+}
